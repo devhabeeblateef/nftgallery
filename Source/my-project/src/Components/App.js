@@ -31,7 +31,7 @@ function App() {
     // Loader Timeout set to 30 Seconds
     const loadTimeout = setTimeout(() => {
       if (collections.length === 0) {
-        setError('Failed to load. Please try again later.');
+        setError('Failed to load. Please chech your internet connection.');
         setIsLoading(false);
       }
     }, 30000);

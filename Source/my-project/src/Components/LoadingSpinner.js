@@ -4,7 +4,7 @@ import React from 'react';
 // Loading Spinner during API Call
 function LoadingSpinner() {
   return (
-    <div className='flex justify-center items-center w-full h-80'>
+    <div className='flex justify-center items-center App  w-full h-screen'>
       <svg
         className='animate-spin h-12 w-12 text-gray-500'
         xmlns='http://www.w3.org/2000/svg'

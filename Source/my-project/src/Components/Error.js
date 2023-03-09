@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 // Component for Handling Errors
 function Error({ message }) {
   return (
-    <div className='error'>
-      <p>{message}</p>
+    <div className='error App h-screen'>
+      <p className='text-center text-white mt-[50%]'>{message}</p>
     </div>
   );
 }
