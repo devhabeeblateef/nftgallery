@@ -42,7 +42,7 @@ function Image({ name, url, description, address, slug}) {
             </div>
             <div className="p-4">
               <img src={url} onClick={handleCloseModal} alt={name} className="mx-auto object-contain max-h-full mt-4" />
-              <p className="text-lg font-medium text-white mt-4">
+              <p className="text-xs md:text-lg font-medium text-white mt-4">
                 {showFullDescription ? description : truncatedDescription}
                 {!showFullDescription && (
                   <button
@@ -53,7 +53,7 @@ function Image({ name, url, description, address, slug}) {
                   </button>
                 )}
               </p>
-              <p className="text-lg text-white font-medium mt-4">{`Owner Address: ${address}`}</p>
+              <p className="text-xs md:text-lg text-white font-medium mt-4">{`Owner Address: ${address}`}</p>
               <button
                 className="bg-green-500 text-white rounded-md px-4 py-2 mt-4 hover:bg-green-600"
                 onClick={() => window.open(`https://opensea.io/assets?search[query]=${slug}`, '_blank')}
