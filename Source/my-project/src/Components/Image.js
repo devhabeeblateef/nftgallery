@@ -53,7 +53,7 @@ function Image({ name, url, description, address, slug}) {
                   </button>
                 )}
               </p>
-              <p className="text-xs w-32 md:text-lg text-white font-medium mt-4">{`Owner Address: ${address}`}</p>
+              <p className="text-xs md:text-lg text-white font-medium my-4 break-words">Owner Address: {address}</p>
               <button
                 className="bg-green-500 text-white rounded-md px-4 py-2 mt-4 hover:bg-green-600"
                 onClick={() => window.open(`https://opensea.io/assets?search[query]=${slug}`, '_blank')}
@@ -75,7 +75,8 @@ Image.propTypes = {
   name: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
+  address: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export default Image;
