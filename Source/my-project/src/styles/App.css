@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+  max-width: 100%;
+}
+
+.App
+{
+  background: linear-gradient(to bottom right, #312339, #000, #000000);
+  background-size: cover;
+  padding: 0.5em;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to bottom right, #B490CA, #5EE7DF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-blur {
+  background-color: rgba(136, 135, 135, 0.2);
+}
+
