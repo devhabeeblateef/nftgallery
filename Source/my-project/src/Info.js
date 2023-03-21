@@ -2,12 +2,12 @@ import React from 'react'
 
 function Info() {
   return (
-    <div>
+    <div className='bg-white h-64'>
       <div className='text-center mb-48 mt-32'>
-      <p className='gradient-text text-3xl mx-auto mt-6'>
-        Subscribe To Get Hot New NFT News Updates</p>
-      <p className='text-gray-400 px-4'>
-        Various trending NFTs news will be reset every week don't miss the best news every week
+      <p className='text-[#2B2B2B] text-3xl font-bold mx-auto pt-14'>
+        Some Dummy Text Will Be Here For Now Yet</p>
+      <p className='text-gray-700 px-4'>
+       Some dummy text will be here for now
       </p>
       </div>
     </div>

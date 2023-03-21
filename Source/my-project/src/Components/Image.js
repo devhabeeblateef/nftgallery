@@ -19,7 +19,7 @@ function Image({ name, url, description, address, slug}) {
   return (
     <div>
       <div
-        className="mx-8 h-80 mt-6 bg-gradient-to-br from-purple-500 to-blue-500 px-4 py-6 snap-center cursor-pointer"
+        className="mx-8 h-80 mt-6 bg-gradient-to-br bg-[#2b2b2b80] px-4 py-6 snap-center cursor-pointer"
         onClick={handleOpenModal}
       >
         <p className="w-full h-0 text-7xl gradient-text">view our best nfts</p>

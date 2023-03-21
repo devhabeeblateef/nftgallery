@@ -9,14 +9,14 @@ function Footer() {
 
        <div className='w-[70%]'>
        <img src={Logo} alt="React Logo" className='w-8 inline mr-2'/>
-        <p className='inline'>NFTGalleryInc</p>
-        <p className='mt-4'>Trusted platform website for buying and selling NFTs with winning quality
+        <p className='inline'>DeenTrybe</p>
+        <p className='mt-4'>Simplifying Islam 
         </p>
         </div>
 
         <div className='w-[30%]'>
             <p>Follow us :</p>
-            <p>@nftgalleryinc</p>
+            <p>@deen_trybe</p>
         </div>
     </div>
     </div>

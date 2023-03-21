@@ -59,19 +59,76 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <div className='w-full scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 flex snap-mandatory snap-x overflow-x-scroll overflow-y-hidden scroll-smooth space-x-6'>
-        {collections.map((collection, index) => (
-          <Image
-            key={index}
-            name={collection.name}
-            url={collection.imageUrl}
-            description={collection.description}
-            address={collection.ownerAddress}
-            slug={collection.slug}
-          />
-        ))}
-      </div>
       <Info />
+      <div className='w-full scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 flex snap-mandatory snap-x overflow-x-scroll overflow-y-hidden scroll-smooth space-x-6'>
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+      
+          
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+
+          
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+
+          
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+
+          
+          <Image
+            key={0}
+            name={"Tawakkul"}
+            url={"https://images.unsplash.com/photo-1495231916356-a86217efff12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80"}
+            description={""}
+            address={""}
+            slug={""}
+          />
+      </div>
+      
       <Footer />
     </div>
   );
